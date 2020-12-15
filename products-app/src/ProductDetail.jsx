@@ -12,10 +12,10 @@ const ProductDetail = (props) => {
     let getCurrent = async () => {
       let resp = await axios.get(`https://products-api-01.herokuapp.com/api/products/${id}`);
       setCurrentProduct(resp.data);
-      console.log(resp.data);
+      
     };
     getCurrent();
-  }, []);
+  }, [id]);
 
   return (
     <div className="description">

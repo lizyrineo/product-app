@@ -8,7 +8,6 @@ const Products = (props) => {
       {props.products &&
         props.products.map((product, index) => {
           return (
-              <div>
                 
               <div className="image-wrapper" key={index}>
                 <Link to={`/product/${product._id}`}>
@@ -17,7 +16,7 @@ const Products = (props) => {
                   <h3>{`${product.price}`}</h3>
                 </Link>
               </div>
-             </div>
+             
             
           );
         })}

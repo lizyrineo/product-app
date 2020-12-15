@@ -18,7 +18,7 @@ function App(props) {
       );
       setProducts(response.data);
       setFilteredProducts(response.data);
-      console.log(response.data);
+     
     };
     getProducts();
   }, []);

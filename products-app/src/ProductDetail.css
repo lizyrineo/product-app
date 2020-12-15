@@ -1,0 +1,31 @@
+.description{
+  display: flex;
+  padding: 80px 100px 100px;
+}
+
+.detail-image{
+  width: 500px;
+  padding: 0 40px;
+}
+
+.details{
+
+}
+
+.detail-name{
+font-size: 64px;
+letter-spacing: 1px;
+padding: 5px;
+}
+
+.detail-price{
+font-size: 28px;
+padding: 10px;
+
+}
+
+.detail-description{
+font-size: 16px;
+padding: 10px;
+letter-spacing: .9px;
+}
